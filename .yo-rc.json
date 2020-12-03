@@ -1,0 +1,49 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp",
+      "nativeLanguage": "et"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "jhipster",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "jwtSecretKey": "M2Q4OWM5YTgxZDU1OTQ4YTRkMzFlODNjZDFmMjk4ZGI5OGUwZjU5ZWZmNTJmNjk5NWIxMzZhOGM2NGYwZDczMTRhNjMwZTRlZjIyMTc2YjZmNmNjODMxZjRkMGE2MmNmNTQyOWU1ZGU0ZmJlZWJjNTk0MTYyMDgxMmZhOGJiYmQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1606995512453,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "0.1.6"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "et",
+    "languages": ["et"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "0.1.6"
+      }
+    ]
+  }
+}
