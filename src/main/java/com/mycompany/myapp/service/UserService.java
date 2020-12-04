@@ -212,6 +212,7 @@ public class UserService {
                         .map(Optional::get)
                         .forEach(managedAuthorities::add);
                     log.debug("Changed Information for User: {}", user);
+                    user.update();
                     return user;
                 }
             )
