@@ -1,9 +1,10 @@
 package com.mycompany.myapp.service.dto;
 
 import com.mycompany.myapp.config.Constants;
-import com.mycompany.myapp.domain.User;
 
+import com.mycompany.myapp.domain.User;
 import io.quarkus.runtime.annotations.RegisterForReflection;
+import org.bson.types.ObjectId;
 
 import java.time.Instant;
 import java.util.Set;
@@ -18,7 +19,7 @@ import javax.validation.constraints.Size;
  */
 @RegisterForReflection
 public class UserDTO {
-    public Long id;
+    public ObjectId id;
 
     @NotBlank
     @Pattern(regexp = Constants.LOGIN_REGEX)
