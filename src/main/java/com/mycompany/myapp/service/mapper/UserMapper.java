@@ -3,6 +3,7 @@ package com.mycompany.myapp.service.mapper;
 import com.mycompany.myapp.domain.Authority;
 import com.mycompany.myapp.domain.User;
 import com.mycompany.myapp.service.dto.UserDTO;
+import org.bson.types.ObjectId;
 
 import javax.inject.Singleton;
 import java.util.HashSet;
@@ -72,7 +73,7 @@ public class UserMapper {
         return authorities;
     }
 
-    public User userFromId(Long id) {
+    public User userFromId(ObjectId id) {
         if (id == null) {
             return null;
         }
